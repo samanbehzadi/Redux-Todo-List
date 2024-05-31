@@ -1,0 +1,23 @@
+  body{
+    background-color: rgb(88, 19, 88) !important;
+  }
+  .todo-container{
+    width: 100vw !important;
+  }
+
+  .todo-item{
+    width: 25%;
+    margin: 10px 10px;
+    border: 1px solid orangered;
+    list-style: none;
+    padding: 10px 5px ;
+    border-radius:  .3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  .completed{
+    text-decoration: line-through;
+    opacity: .3;
+  }
